@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dick Ejire Precious</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="animate-header">Dick Ejire Precious</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container-one">
+            <div>
+                <h2>About Me</h2>
+                <p>Hi, I'm Dick Ejire Precious, a passionate web developer based in Port Harcourt. I specialize in creating engaging, impactful digital experiences.</p>
+            </div>
+            <div class="profile-container">
+                <img src="./WhatsApp Image 2024-09-16 at 19.21.20_13ffd161.jpg" alt="Dick Ejire Precious" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <h3>Reading</h3>
+                    <p>Avid reader with a strong ability to comprehend and analyze complex texts efficiently.</p>
+                </div>
+                <div class="skill">
+                    <h3>Typing</h3>
+                    <p>Excellent typing skills with a typing speed of [your WPM] words per minute, ensuring accuracy and speed.</p>
+                </div>
+                <div class="skill">
+                    <h3>Communication</h3>
+                    <p>Effective communicator, capable of conveying ideas clearly both verbally and in writing.</p>
+                </div>
+                <div class="skill">
+                    <h3>Critical Thinking</h3>
+                    <p>Strong problem-solving skills with the ability to think critically and make well-informed decisions.</p>
+                </div>
+                <div class="skill">
+                    <h3>Time Management</h3>
+                    <p>Proven ability to manage time effectively, balancing multiple tasks and projects efficiently.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-container">
+                <div class="project">
+                    <h3>Project 1</h3>
+                    <p>A brief description of the project. You can also add a link to the project repository or live demo.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Project 2</h3>
+                    <p>A brief description of the project. You can also add a link to the project repository or live demo.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Project 3</h3>
+                    <p>A brief description of the project. You can also add a link to the project repository or live demo.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you'd like to get in touch, feel free to send me a message.</p>
+            <form id="contactForm" onsubmit="return handleSubmit(event)">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit" class="animate-btn">Send Message</button>
+            </form>
+            <div id="formResponse"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Dick Ejire Precious. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
